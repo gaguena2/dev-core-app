@@ -1,0 +1,16 @@
+{
+	"name" : "gabri/app-core",
+	"autoload" : {
+		"psr-4" : {
+			"AppCore\\" : "src/"
+		}
+	},
+	"authors" : [{
+			"name" : "Gabriel Aguena",
+			"email" : "gaguena@gmail.com"
+		}
+	],
+	"require" : {
+		"nmred/kafka-php" : "^0.2.0"
+	}
+}
