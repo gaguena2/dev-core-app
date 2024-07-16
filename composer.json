@@ -2,7 +2,7 @@
 	"name" : "gabri/app-core",
 	"autoload" : {
 		"psr-4" : {
-			"AppCore\\" : "src/"
+			"App\\" : "app/"
 		}
 	},
 	"authors" : [{

@@ -2,10 +2,10 @@
 
 
 require __DIR__.'/vendor/autoload.php';
+use App\Kafka\KafkaConfig;
 
-use \App\kafka\KafkaConfig;
 
 $kafka = new KafkaConfig();
 
-echo ">>>>>> " . $kafka;
+echo ">>>>>> " . $kafka . "\n";
 
