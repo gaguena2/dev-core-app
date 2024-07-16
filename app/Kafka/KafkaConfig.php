@@ -1,5 +1,5 @@
 <?php
-namespace app\kafka;
+namespace App\Kafka;
 
 class KafkaConfig
 {
@@ -14,4 +14,8 @@ class KafkaConfig
         $this->groupId = getenv('BROKERS');
         $this->refreshInterval = getenv('REFRESH_INTERVAL');
     }
+    public function __toString()
+	{
+		return "KafkaConfig: ". $this->brokerList;
+	}
 }
